@@ -4,7 +4,7 @@ package Unit_02;
  * -an abstract class must be declared with an abstract keyword.
  * 
  * -abstraction is a process of hiding the implementation details and showing only functionality[function declaration] to the user.
- * -cannot make object of abstract class directly, but through derived class[cannot be insta
+ * -cannot make object of abstract class directly, but through derived class[cannot be instantiated]
  * 
  * -example of abstract method?
  * -abstract class may contain abstract and non-abstract methods
@@ -24,7 +24,7 @@ abstract class Bike{
 	Bike(){
 		System.out.println("Inside Bike Constructor: " +a+ "\n");
 	}
-	abstract void run();  //abstract method()!  90-100%)
+	abstract void run();  //abstract method()!  (0-100%)
 	
 	void display() {
 		System.out.println("this is display method!");
@@ -42,7 +42,7 @@ class Honda4 extends Bike{
 	
 }
 
-public class P09_Task01_AbstractAndFinalClassInJava {
+public class P09_Task01_AbstractAndFinalClassesInJava {
     public static void main(String[] args) {
     	Bike obj= new Honda4();
     	//obj.run();

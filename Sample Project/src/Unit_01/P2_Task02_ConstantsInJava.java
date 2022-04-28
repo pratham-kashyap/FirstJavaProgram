@@ -1,7 +1,7 @@
 package Unit_01;
 
 /* private:		"inside class only"
- * protected:	class+same package
+ * protected:	class + same package
  * public:		class + within the package + outside the pack
  * default:		no keyword,package-private
 */
@@ -12,7 +12,7 @@ public class P2_Task02_ConstantsInJava {
 		public static void main(String[] args) {
 			final int a=10;
 			// a=11;
-			//static reference cannot be made in a stativ field pi
+			//static reference cannot be made in a static field pi
 			System.out.println(Pi);
 			
 			System.out.println(a);

@@ -7,8 +7,8 @@ public class P5_Task02_MethodsInJava {
 		ABC3 obj = new ABC3();
 		
 		//Calling display method definition
-		obj.display();
-		System.out.println(obj.a);
+		ABC3.display();
+		System.out.println(obj.display2());
 		
 	}
 }

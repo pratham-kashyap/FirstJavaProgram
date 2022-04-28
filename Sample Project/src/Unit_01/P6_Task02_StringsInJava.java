@@ -24,8 +24,8 @@ class StringsInJava {
 		for(int i = 0; i < s.length(); i++) {
 			System.out.println(s.charAt(i));
 		}
-		String first = "Tejaswani";
-		String second = "Upadhyay";
+		String first = "Pratham";
+		String second = "Kashyap";
 		
 		//Add two strings
 		String third = first + second;
@@ -42,8 +42,8 @@ class StringsInJava {
 		         Instead, the new reference, example points to the already existed string(Java).
 		      - If the string doesn't exist, the new string Java is created
 		 */
-		String fourth = "Tejaswani";
-		String fifth = new String("Upadhyay!");
+		String fourth = "Pratham";
+		String fifth = new String("Kashyap!");
 	}
 	
 	/*

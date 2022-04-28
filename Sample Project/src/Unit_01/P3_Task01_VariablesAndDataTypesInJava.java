@@ -17,13 +17,14 @@ package Unit_01;
  	* Static Variables:
  	  - These are defined with the keyword 'static'
  	  - They are initialized only once, at the start of program execution
- 	  - These should be initialised first, before the initialization of any instance variable
+ 	  - These should be initialized first, before the initialization of any instance variable
  */
 
 public class P3_Task01_VariablesAndDataTypesInJava {
 	
 	static int q = 11;
 	int p = 10;
+	
 	public static void main(String args[]) {
 		
 		// Valid Declaration
@@ -90,20 +91,20 @@ public class P3_Task01_VariablesAndDataTypesInJava {
 		System.out.println(n);
 		System.out.println(o);
 
-		System.out.println(ABC.j);	// data + function/methods
+		System.out.println(ABCD.j);	// data + function/methods
 		
-		ABC obj1 = new ABC();
+		ABCD obj1 = new ABCD();
 		System.out.println(obj1.i++);
 		System.out.println(obj1.i);
 		
-		ABC obj2 = new ABC();
+		ABCD obj2 = new ABCD();
 		System.out.println(obj2.i);
 
 		System.out.println(obj1.j);
 		System.out.println(obj2.j);
-		System.out.println(ABC.j);
+		System.out.println(ABCD.j);
 		
-		ABC.typeConversionAndTypeCasting();
+		ABCD.typeConversionAndTypeCasting();
 		
 	}
 	
@@ -117,7 +118,7 @@ public class P3_Task01_VariablesAndDataTypesInJava {
 	}
 }
 
-class ABC {
+class ABCD {
 	
 	static int j = 10;  // class variable/static variable
 	int i = 10;			// Instance Variable

@@ -11,7 +11,7 @@ public class P10_Task01_OverloadingAndOverridingInJava {
 		
 		InheritFirstOne obj2 = new InheritFirstOne();
 		System.out.println(obj2.add(1,2));
-        //System.out.println(obj2.add(1,2,3));
+        System.out.println(obj2.add(1,2,3));
         
     }
 }
@@ -35,7 +35,7 @@ class InheritFirstOne extends OverloadingAndOverridingInJava{
 	
 	int add(int a, int b) {
 		System.out.println("inside , inheritfirstone!: ");
-		return a+b+1;
+		return a+b;
 	}
 	int add(int a, int b, int c) {
 		System.out.println("inside , overloadingandoverridinginjava!: ");
