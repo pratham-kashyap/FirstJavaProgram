@@ -157,7 +157,6 @@ class ABCDE
 	
 	void useOfThrows_And_Finally() 
 	{
-
 		try 
 		{
 			useOfThrow(17);
@@ -176,6 +175,13 @@ class ABCDE
 		{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+		}
+		// The finally statement lets you execute code after try regardless of results
+		// Even if there is no exceptoin in try catch block still finally always runs
+		// If there is an exception in try block and you don't have any appropriate catch block to catch that exception still finally would run
+		finally
+		{
+			System.out.println("The 'try catch' is finished");
 		}
 	}
 	
