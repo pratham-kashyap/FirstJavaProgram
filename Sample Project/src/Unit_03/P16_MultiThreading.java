@@ -27,7 +27,7 @@ public class P16_MultiThreading
 //		obj2.show2();
 		Thread t1 = new Thread(new T1(),"T1");
 		Thread t2 = new Thread(new T2(),"T2");
-		Thread t3 = new Thread(new T3(),"Hello");
+		Thread t3 = new Thread(new T3(),"T3");
 		t1.start();
 		t2.start();
 		t3.start();

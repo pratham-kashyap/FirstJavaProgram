@@ -10,16 +10,16 @@ public class P14_ExceptionHandlingInJava {
 	{
 		ABCDE obj = new ABCDE();
 		//obj.BasicException1();
-		//obj.BasicException2();
-		//obj.InputMismatchException();
+		obj.BasicException2();
+		obj.InputMismatchException();
 		//obj.StackOverflow();
-		//obj.IndexOutOfBoundException();
-		//String newstring = null;
-		//obj.NullPointerException(newstring);
+		obj.IndexOutOfBoundException();
+		String newstring = null;
+		obj.NullPointerException(newstring);
 		//obj.useOfThrow(15);
-		//obj.useOfThrows_And_Finally();
+		obj.useOfThrows_And_Finally();
 		//obj.checkedAndUncheckedException();
-		//obj.manualExceptionThrow();
+		obj.manualExceptionThrow();
 		
 	}
 }
@@ -114,8 +114,7 @@ class ABCDE
 
 			//sensitive code
 			int a[] = {1,2,3,4,5};
-			for(int i=0;i<10;i++)
-			System.out.print(a[i]+" ");
+			System.out.print(a[5]);
 			
 		}
 		catch(Exception e)
